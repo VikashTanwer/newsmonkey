@@ -1,8 +1,11 @@
+import Navbar from "./components/Navbar";
+import NewsItem from "./components/NewsItem";
 
 function App() {
   return (
     <>
-      <div>ram ram ji</div>
+      <Navbar/>
+      <NewsItem/>
     </>
   );
 }
